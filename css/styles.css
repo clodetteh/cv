@@ -1,7 +1,7 @@
 .presentation {
     background-color: #574F7D;
-    height: 400px;
-    padding: 120px;
+    height: 500px;
+    padding: 125px 15% 0 15%; 
 }
 
 nav {
@@ -103,4 +103,9 @@ aside {
 
 aside li {
     margin-bottom: 15px;
+}
+
+.texto_vertical {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
 }
