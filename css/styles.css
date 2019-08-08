@@ -1,8 +1,11 @@
-
 .presentation {
     background-color: #574F7D;
-    height: 700px; 
-    padding: 50px;
+    height: 400px;
+    padding: 120px;
+}
+
+nav {
+    background-color: #574F7D;
 }
 
 nav ol {
@@ -17,14 +20,14 @@ nav li {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     color: #2B1641;
-    padding-left: 20px;
+    padding: 35px 15px 35px 0;
 }
 
 article {
-    padding: 150px 0px 0px 125px;
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    width: 900px;
+    float: left;
 }
 
 h1 {
@@ -62,4 +65,42 @@ span {
     display: inline-block;
     border-radius: 5px;
     border: 10px solid #fff;
+}
+
+.main_buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.b_primary {
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #DFF0EA;
+    color: #574F7D;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.b_secondary {
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 2px solid #DFF0EA;
+    font-family: 'Titillium Web', sans-serif;
+    color: #DFF0EA;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: none;
+}
+
+aside {
+    float: right;
+}
+
+aside li {
+    margin-bottom: 15px;
 }
