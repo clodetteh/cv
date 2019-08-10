@@ -33,9 +33,9 @@ nav ol {
 nav li {
     font-size: 15px;
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 600;
-    color: #2B1641;
-    padding: 35px 0 35px 15px;
+    font-weight: 500;
+    color: #DFF0EA;
+    padding: 25px 0 25px 15px;
 }
 
 article {
@@ -59,12 +59,13 @@ h2 {
 }
 
 p {
-    margin-top: 40px;
+    padding-top: 40px;
     width: 400px;
     line-height: 24px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
     font-weight: 200;
+    margin: 0 auto;
 }
 
 .general_info p {
@@ -136,7 +137,7 @@ aside li {
 
 .centrar {
     position: relative;
-    left: calc(50% - 200px);
+    text-align: center;
 }
 
 h3 {
@@ -219,4 +220,9 @@ h4 {
     position: absolute;
     top: 2400px;
     right: 0px;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
 }
