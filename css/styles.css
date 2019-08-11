@@ -7,7 +7,7 @@
     padding: 0 15%;
 }
 
-.presentation {
+#presentation {
     height: 500px;
     padding-top: 125px;
 }
@@ -28,6 +28,7 @@ nav ol {
     justify-content: flex-end;
     right: 15%;
     position: relative;
+    padding: 15px 0;
 }
 
 nav li {
@@ -35,7 +36,13 @@ nav li {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 500;
     color: #DFF0EA;
-    padding: 25px 0 25px 15px;
+    padding: 10px 15px;
+}
+
+nav li:hover,
+nav li a:active {
+    background-color: #4F3A65;
+    color: #ffffff;
 }
 
 article {
@@ -101,6 +108,12 @@ span {
     font-size: 14px;
 }
 
+.b_primary:hover {
+    background-color: #574F7D;
+    border: 2px solid #DFF0EA;
+    color: #DFF0EA;
+}
+
 .b_secondary {
     padding: 15px 20px;
     border-radius: 5px;
@@ -111,6 +124,12 @@ span {
     text-transform: uppercase;
     font-size: 14px;
     background-color: #574F7D;
+}
+
+.b_secondary:hover {
+    background-color: #DFF0EA;
+    color: #574F7D;
+    border: 2px solid #574F7D;
 }
 
 aside {
@@ -128,6 +147,7 @@ aside li {
     font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
     font-weight: 700;
+    margin: 0 auto;
 }
 
 .logos ol {
@@ -146,8 +166,12 @@ h3 {
     color: #4F3A65;
 }
 
+.title {
+    padding-top: 100px;
+}
+
 .boxes {
-    padding: 50px 0 130px 0;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -189,6 +213,10 @@ h4 {
     text-transform: uppercase;
     text-decoration: underline;
     color: #4F3A65;
+}
+
+.style_link:hover {
+    color: #95ADBE;
 }
 
 .gray {
